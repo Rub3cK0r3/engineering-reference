@@ -170,3 +170,6 @@ If I’m not using it in production or while debugging, it doesn’t belong here
 
 > Python as a base for backend, automation, DevOps, and security. Use only standard library and official docs. Avoid tutorials or blogs. Focus on full control of code, separating business logic, data access, and server. Key modules: `http.server`, `socket`, `ssl`, `asyncio`, `json`, `urllib`, `sqlite3`, `threading`, `multiprocessing`, `os`, `pathlib`, `subprocess`, `logging`, `hashlib`, `secrets`. Enough for APIs, pipelines, security tools, and automation. Extend with C/Rust only for extreme performance; core remains Python.
 
+> **Use frameworks as libraries, not as architecture.**
+>
+> Keep business logic independent. Frameworks are delivery tools, not the core of the system.
