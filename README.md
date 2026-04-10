@@ -19,61 +19,92 @@ If I’m not using it in production or while debugging, it doesn’t belong here
 Focus on **authoritative, reproducible, and maintainable sources**.
 
 ---
+# Engineering Reference — Official Documentation Index
 
-## Languages
+Curated list of **official docs, specs, RFCs, standards, and source repositories** for production engineering.
 
-### Go
+---
 
-* https://go.dev/doc/  
-* https://pkg.go.dev/std  
-* https://go.dev/ref/spec  
-* https://go.dev/doc/effective_go  
-* https://go.dev/ref/mod  
-* https://pkg.go.dev/testing  
+## Core Standards & Specifications
 
-### Rust
+- https://www.rfc-editor.org/
+- https://datatracker.ietf.org/
+- https://www.iana.org/assignments/
+- https://www.w3.org/TR/
+- https://whatwg.org/standards
+- https://tc39.es/ecma262/
+- https://pubs.opengroup.org/onlinepubs/9699919799/
 
-* https://doc.rust-lang.org/book/  
-* https://doc.rust-lang.org/std/  
-* https://doc.rust-lang.org/reference/  
-* https://doc.rust-lang.org/nomicon/  
-* https://docs.rs/  
+---
 
-### C++
+## Go
 
-* https://en.cppreference.com/w/  
-* https://isocpp.org/std/the-standard  
-* https://godbolt.org/  
+- https://go.dev/doc/
+- https://go.dev/ref/spec
+- https://pkg.go.dev/std
+- https://go.dev/ref/mod
+- https://pkg.go.dev/testing
+- https://github.com/golang/go
 
-### C
+---
 
-* https://man7.org/linux/man-pages/  
-* https://en.cppreference.com/w/c  
-* https://pubs.opengroup.org/onlinepubs/9699919799/  
+## Rust
 
-### Python
+- https://doc.rust-lang.org/book/
+- https://doc.rust-lang.org/reference/
+- https://doc.rust-lang.org/std/
+- https://doc.rust-lang.org/nomicon/
+- https://docs.rs/
+- https://github.com/rust-lang/rust
 
-* https://docs.python.org/3/  
-* https://docs.python.org/3/library/index.html  
-* https://docs.python.org/3/reference/  
-* https://peps.python.org/  
+---
 
-### Java
+## C / C++
 
-* https://docs.oracle.com/en/java/javase/21/docs/api/  
-* https://docs.oracle.com/javase/specs/  
-* https://openjdk.org/projects/  
+- https://en.cppreference.com/w/
+- https://isocpp.org/std/the-standard
+- https://eel.is/c++draft/
+- https://godbolt.org/
+- https://man7.org/linux/man-pages/
+- https://www.open-std.org/jtc1/sc22/wg14/
 
-### Bash / Shell
+---
 
-* https://www.gnu.org/software/bash/manual/bash.html  
-* https://mywiki.wooledge.org/BashGuide  
-* https://www.tldp.org/LDP/abs/html/  
+## Python
 
-### JavaScript / Node.js
+- https://docs.python.org/3/
+- https://docs.python.org/3/library/
+- https://docs.python.org/3/reference/
+- https://peps.python.org/
+- https://devguide.python.org/
+- https://github.com/python/cpython
 
-* https://developer.mozilla.org/en-US/docs/Web/JavaScript  
-* https://nodejs.org/api/  
+---
+
+## Java
+
+- https://docs.oracle.com/javase/specs/
+- https://docs.oracle.com/en/java/javase/21/docs/api/
+- https://openjdk.org/projects/
+- https://github.com/openjdk/jdk
+
+---
+
+## Bash / POSIX
+
+- https://www.gnu.org/software/bash/manual/bash.html
+- https://pubs.opengroup.org/onlinepubs/9699919799/
+- https://mywiki.wooledge.org/BashGuide
+- https://www.tldp.org/LDP/abs/html/
+
+---
+
+## JavaScript / Node.js
+
+- https://developer.mozilla.org/en-US/docs/Web/JavaScript
+- https://tc39.es/ecma262/
+- https://nodejs.org/api/
+- https://github.com/nodejs/node
 
 ---
 
@@ -81,110 +112,132 @@ Focus on **authoritative, reproducible, and maintainable sources**.
 
 ### PostgreSQL
 
-* https://www.postgresql.org/docs/current/  
-* https://www.postgresql.org/docs/current/mvcc.html  
-* https://www.postgresql.org/docs/current/transaction-iso.html  
-* https://www.postgresql.org/docs/current/indexes.html  
-* https://www.postgresql.org/docs/current/using-explain.html  
-* https://www.postgresql.org/docs/current/explicit-locking.html  
-* https://wiki.postgresql.org/wiki/Performance_Optimization  
+- https://www.postgresql.org/docs/current/
+- https://www.postgresql.org/docs/current/mvcc.html
+- https://www.postgresql.org/docs/current/transaction-iso.html
+- https://www.postgresql.org/docs/current/indexes.html
+- https://www.postgresql.org/docs/current/locking.html
+- https://www.postgresql.org/docs/current/explicit-locking.html
+- https://www.postgresql.org/docs/current/using-explain.html
+- https://www.postgresql.org/docs/current/wal.html
+- https://wiki.postgresql.org/wiki/Performance_Optimization
+- https://github.com/postgres/postgres
+
+---
 
 ### Redis
 
-* https://redis.io/docs/latest/  
-* https://redis.io/docs/latest/develop/use/patterns/  
-
-### Additional DBs
-
-* MySQL: https://dev.mysql.com/doc/  
-* MongoDB: https://www.mongodb.com/docs/  
-* Cassandra: https://cassandra.apache.org/doc/latest/  
+- https://redis.io/docs/latest/
+- https://redis.io/docs/latest/develop/reference/
+- https://redis.io/docs/latest/develop/use/patterns/
+- https://github.com/redis/redis
 
 ---
 
-## HTTP / Protocols / RFCs
+### MySQL / MongoDB / Cassandra
 
-* RFC 9110 — HTTP Semantics: https://www.rfc-editor.org/rfc/rfc9110  
-* RFC 9111 — HTTP Caching: https://www.rfc-editor.org/rfc/rfc9111  
-* RFC 8446 — TLS 1.3: https://www.rfc-editor.org/rfc/rfc8446  
-* RFC 7519 — JSON Web Token: https://www.rfc-editor.org/rfc/rfc7519  
-* https://www.rfc-editor.org/  
+- https://dev.mysql.com/doc/
+- https://github.com/mysql/mysql-server
+- https://www.mongodb.com/docs/
+- https://github.com/mongodb/mongo
+- https://cassandra.apache.org/doc/latest/
+- https://github.com/apache/cassandra
 
 ---
 
-## Security
+## HTTP / Networking / Protocols
 
-### OWASP
-
-* OWASP Top 10: https://owasp.org/www-project-top-ten/  
-* OWASP Cheat Sheet Series: https://cheatsheetseries.owasp.org/  
-
-### Offensive / Defensive
-
-* PortSwigger Web Security Academy: https://portswigger.net/web-security  
-* MITRE ATT&CK: https://attack.mitre.org/  
-* CWE — Common Weakness Enumeration: https://cwe.mitre.org/  
-
-### Standards
-
-* NIST CSF & Publications: https://csrc.nist.gov/publications  
-* ISO/IEC 27001: https://www.iso.org/isoiec-27001-information-security.html  
+- https://www.rfc-editor.org/rfc/rfc9110
+- https://www.rfc-editor.org/rfc/rfc9111
+- https://www.rfc-editor.org/rfc/rfc8446
+- https://www.rfc-editor.org/rfc/rfc7540
+- https://www.rfc-editor.org/rfc/rfc9000
+- https://www.rfc-editor.org/rfc/rfc7519
+- https://www.iana.org/assignments/service-names-port-numbers/
 
 ---
 
 ## Linux / Systems
 
-* Linux man pages: https://man7.org/linux/man-pages/  
-* systemd: https://www.freedesktop.org/software/systemd/man/  
-* nftables: https://wiki.nftables.org/wiki-nftables/index.php/Main_Page  
-* iptables: https://ipset.netfilter.org/iptables.man.html  
-* OpenSSL Docs: https://www.openssl.org/docs/  
-* Linux Kernel Documentation: https://www.kernel.org/doc/html/latest/  
+- https://man7.org/linux/man-pages/
+- https://www.kernel.org/doc/html/latest/
+- https://github.com/torvalds/linux
+- https://www.freedesktop.org/software/systemd/man/
+- https://systemd.io/
+- https://wiki.nftables.org/
+- https://www.openssl.org/docs/
 
 ---
 
 ## Containers / Orchestration
 
-* Docker Documentation: https://docs.docker.com/  
-* Docker CLI Reference: https://docs.docker.com/engine/reference/commandline/docker/  
-* Kubernetes Official Docs: https://kubernetes.io/docs/home/  
-* CRI-O / containerd references: https://cri-o.io/  
+- https://docs.docker.com/
+- https://github.com/moby/moby
+- https://kubernetes.io/docs/home/
+- https://github.com/kubernetes/kubernetes
+- https://containerd.io/docs/
+- https://github.com/containerd/containerd
+- https://cri-o.io/
 
 ---
 
 ## Observability / Monitoring
 
-* Prometheus: https://prometheus.io/docs/  
-* OpenTelemetry: https://opentelemetry.io/docs/  
-* Grafana: https://grafana.com/docs/  
-* ELK Stack Docs: https://www.elastic.co/guide/index.html  
+- https://prometheus.io/docs/
+- https://github.com/prometheus/prometheus
+- https://opentelemetry.io/docs/
+- https://github.com/open-telemetry
+- https://grafana.com/docs/
+- https://github.com/grafana/grafana
+- https://www.elastic.co/guide/index.html
 
 ---
 
-## Testing / Performance
+## Security
 
-* k6 — Load Testing: https://k6.io/docs/  
-* Criterion.rs — Benchmarking in Rust: https://criterion.rs/book/  
-* pytest Documentation: https://docs.pytest.org/en/stable/  
-* JMeter: https://jmeter.apache.org/usermanual/index.html  
+- https://owasp.org/www-project-top-ten/
+- https://cheatsheetseries.owasp.org/
+- https://portswigger.net/web-security
+- https://cwe.mitre.org/
+- https://attack.mitre.org/
+- https://csrc.nist.gov/publications
+- https://www.nist.gov/cyberframework
+- https://www.rfc-editor.org/rfc/rfc8446
+
+---
+
+## Performance / Testing
+
+- https://k6.io/docs/
+- https://github.com/grafana/k6
+- https://docs.pytest.org/
+- https://github.com/pytest-dev/pytest
+- https://criterion.rs/book/
+- https://github.com/bheisler/criterion.rs
+- https://jmeter.apache.org/usermanual/
 
 ---
 
 ## Networking
 
-* TCP/IP Guide: http://www.tcpipguide.com/free/index.htm  
-* IANA Port Assignments: https://www.iana.org/assignments/service-names-port-numbers/service-names-port-numbers.xhtml  
-* Wireshark Docs: https://www.wireshark.org/docs/  
-* BPF / eBPF Reference: https://www.kernel.org/doc/html/latest/bpf/index.html  
+- https://www.rfc-editor.org/rfc/rfc9293
+- https://www.rfc-editor.org/rfc/rfc791
+- https://www.iana.org/assignments/
+- https://www.tcpdump.org/manpages/tcpdump.1.html
+- https://www.wireshark.org/docs/
+- https://github.com/the-tcpdump-group/tcpdump
+- https://www.kernel.org/doc/html/latest/networking/
+- https://www.kernel.org/doc/html/latest/bpf/
 
 ---
 
 ## Incident Postmortems
 
-* Cloudflare Engineering Postmortems: https://blog.cloudflare.com/tag/postmortem/  
-* Google SRE Book Postmortems: https://sre.google/sre-book/table-of-contents/  
-* GitHub Engineering: https://github.blog/category/engineering/  
-* Netflix Postmortems: https://netflixtechblog.com/tagged/postmortem  
+- https://blog.cloudflare.com/tag/postmortem/
+- https://github.blog/category/engineering/
+- https://netflixtechblog.com/tagged/postmortem
+- https://sre.google/sre-book/postmortem-culture/
+- https://aws.amazon.com/premiumsupport/knowledge-center/
 
 ---
 
