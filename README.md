@@ -330,6 +330,102 @@ Curated list of **official docs, specs, RFCs, standards, and source repositories
 
 ---
 
+
+# Books (Systems / Infrastructure / Security / Engineering Mindset)
+
+---
+
+## Systems Thinking (Foundational Layer)
+
+- https://www.amazon.com/dp/0262539513 (How Complex Systems Fail - Richard Cook)
+- https://www.amazon.com/dp/038504231X (Thinking in Systems - Donella Meadows)
+- https://www.amazon.com/dp/0735611319 (Debugging the Development Process - Steve Maguire)
+- https://www.amazon.com/dp/0671726013 (The Art of Systems Thinking - Joseph O’Connor)
+
+---
+
+## Operating Systems / Kernel / Internals
+
+- https://pages.cs.wisc.edu/~remzi/OSTEP/ (Operating Systems: Three Easy Pieces)
+- https://www.amazon.com/dp/0131429388 (Operating System Concepts - Silberschatz)
+- https://www.amazon.com/dp/0134093410 (Computer Systems: A Programmer’s Perspective - CS:APP)
+- https://www.amazon.com/dp/0131482114 (Understanding the Linux Kernel)
+- https://www.amazon.com/dp/0133594149 (Linux Kernel Development - Robert Love)
+- https://www.amazon.com/dp/020155803X (Advanced Programming in the UNIX Environment)
+
+---
+
+## Networking / Protocols
+
+- https://www.amazon.com/dp/0132126958 (TCP/IP Illustrated Vol. 1 - Stevens)
+- https://www.amazon.com/dp/0201633469 (UNIX Network Programming - Stevens)
+- https://www.amazon.com/dp/0136661029 (Computer Networking: A Top-Down Approach)
+- https://www.amazon.com/dp/0130460192 (Interconnections - Radia Perlman)
+- https://www.amazon.com/dp/0128007253 (Network Algorithmics - George Varghese)
+
+---
+
+## Distributed Systems
+
+- https://www.amazon.com/dp/1449373321 (Designing Data-Intensive Applications - Kleppmann)
+- https://www.amazon.com/dp/0321832058 (Distributed Systems - Tanenbaum & van Steen)
+- https://jepsen.io/analyses (Jepsen Real-world Consistency Failures)
+- https://lamport.azurewebsites.net/pubs/pubs.html (Leslie Lamport Papers)
+
+---
+
+## Systems Programming (C / UNIX / Low-Level)
+
+- https://www.amazon.com/dp/0131103628 (The C Programming Language - K&R)
+- https://www.amazon.com/dp/0201615835 (The Practice of Programming - Kernighan & Pike)
+- https://www.amazon.com/dp/0201633612 (Advanced Programming in the UNIX Environment)
+- https://www.amazon.com/dp/0134093410 (CS:APP - Computer Systems A Programmer’s Perspective)
+
+---
+
+## Security / Cryptography / Attacker Mindset
+
+- https://www.amazon.com/dp/1119396214 (Security Engineering - Ross Anderson)
+- https://www.amazon.com/dp/1593270476 (Web Application Hacker’s Handbook)
+- https://www.amazon.com/dp/1593276699 (Practical Malware Analysis)
+- https://www.amazon.com/dp/1593278683 (The Art of Memory Forensics)
+- https://owasp.org/www-project-top-ten/
+- https://cheatsheetseries.owasp.org/
+
+---
+
+## Production Systems / SRE / Reliability
+
+- https://sre.google/books/ (Site Reliability Engineering - Google)
+- https://www.amazon.com/dp/1492029505 (SRE Workbook)
+- https://www.amazon.com/dp/1492026492 (Release It! - Michael Nygard)
+- https://www.amazon.com/dp/0134494164 (Site Reliability Workbook)
+
+---
+
+## Performance / Hardware Awareness
+
+- https://www.amazon.com/dp/0132404168 (Computer Architecture: A Quantitative Approach)
+- https://www.amazon.com/dp/0123747319 (What Every Programmer Should Know About Memory - Ulrich Drepper)
+- https://www.amazon.com/dp/0201485672 (Refactoring - Martin Fowler)
+
+---
+
+## Software Design / Architecture
+
+- https://www.amazon.com/dp/020161622X (The Pragmatic Programmer)
+- https://www.amazon.com/dp/0201835959 (Design Patterns - GoF)
+- https://www.amazon.com/dp/0321125215 (Domain-Driven Design - Eric Evans)
+
+---
+
+## Advanced / Optional (Deep Theory)
+
+- https://www.amazon.com/dp/0262033844 (Introduction to Algorithms - CLRS)
+- https://www.amazon.com/dp/0262539513 (Structure and Interpretation of Computer Programs - SICP)
+
+---
+
 > Python is the base for backend, automation, DevOps, and security. Use **only standard library and official docs**. Avoid tutorials or blogs. Focus on **full control of code**, separating business logic, data access, and server. Key modules: `http.server`, `socket`, `ssl`, `asyncio`, `json`, `urllib`, `sqlite3`, `threading`, `multiprocessing`, `os`, `pathlib`, `subprocess`, `logging`, `hashlib`, `secrets`. Enough for APIs, pipelines, security tools, and automation. Extend with C/Rust only for extreme performance; core remains Python.  
 
 > **Use frameworks as libraries, not architecture.** Keep business logic independent. Frameworks are delivery tools, not the core of the system.
