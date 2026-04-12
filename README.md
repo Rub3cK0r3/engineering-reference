@@ -254,6 +254,37 @@ Curated list of **official docs, specs, RFCs, standards, and source repositories
 
 ---
 
+## C (Systems / libc / ABI)
+
+- https://en.cppreference.com/w/c
+- https://www.open-std.org/jtc1/sc22/wg14/
+- https://man7.org/linux/man-pages/man2/
+- https://man7.org/linux/man-pages/man3/
+- https://www.gnu.org/software/libc/manual/
+- https://sourceware.org/glibc/wiki/
+- https://musl.libc.org/
+- https://github.com/torvalds/linux
+
+---
+
+## C (Networking / Sockets)
+
+- https://man7.org/linux/man-pages/man2/socket.2.html
+- https://man7.org/linux/man-pages/man2/bind.2.html
+- https://man7.org/linux/man-pages/man2/listen.2.html
+- https://man7.org/linux/man-pages/man2/accept.2.html
+- https://man7.org/linux/man-pages/man2/connect.2.html
+- https://man7.org/linux/man-pages/man2/send.2.html
+- https://man7.org/linux/man-pages/man2/recv.2.html
+- https://man7.org/linux/man-pages/man7/socket.7.html
+- https://man7.org/linux/man-pages/man7/tcp.7.html
+- https://man7.org/linux/man-pages/man7/udp.7.html
+- https://man7.org/linux/man-pages/man7/epoll.7.html
+- https://man7.org/linux/man-pages/man2/epoll_ctl.2.html
+- https://man7.org/linux/man-pages/man2/epoll_wait.2.html
+
+---
+
 ## Linux Kernel / Internals
 
 - https://www.kernel.org/doc/html/latest/
