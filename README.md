@@ -330,10 +330,9 @@ Curated list of **official docs, specs, RFCs, standards, and source repositories
 
 ---
 
-
-# Books (Systems / Infrastructure / Security / Engineering Mindset)
-
----
+#####################################################################
+# Books (Systems / Infrastructure / Security / Engineering Mindset) #
+#####################################################################
 
 ## Systems Thinking (Foundational Layer)
 
@@ -341,9 +340,7 @@ Curated list of **official docs, specs, RFCs, standards, and source repositories
 - Thinking in Systems - Donella Meadows
 - Debugging the Development Process - Steve Maguire
 - The Art of Systems Thinking - Joseph O’Connor
-
 ---
-
 ## Operating Systems / Kernel / Internals
 
 - Operating Systems: Three Easy Pieces
@@ -352,9 +349,7 @@ Curated list of **official docs, specs, RFCs, standards, and source repositories
 - Understanding the Linux Kernel
 - Linux Kernel Development - Robert Love
 - Advanced Programming in the UNIX Environment
-
 ---
-
 ## Networking / Protocols
 
 - TCP/IP Illustrated Vol. 1 - Stevens
@@ -362,27 +357,21 @@ Curated list of **official docs, specs, RFCs, standards, and source repositories
 - Computer Networking: A Top-Down Approach
 - Interconnections - Radia Perlman
 - Network Algorithmics - George Varghese
-
 ---
-
 ## Distributed Systems
 
 - Designing Data-Intensive Applications - Kleppmann
 - Distributed Systems - Tanenbaum & van Steen
 - Jepsen Analyses (real-world consistency failures)
 - Leslie Lamport Papers (consensus, time, distributed reasoning)
-
 ---
-
 ## Systems Programming (C / UNIX / Low-Level)
 
 - The C Programming Language - K&R
 - The Practice of Programming - Kernighan & Pike
 - Advanced Programming in the UNIX Environment
 - Computer Systems: A Programmer’s Perspective (CS:APP)
-
 ---
-
 ## Security / Cryptography / Attacker Mindset
 
 - Security Engineering - Ross Anderson
@@ -391,34 +380,26 @@ Curated list of **official docs, specs, RFCs, standards, and source repositories
 - The Art of Memory Forensics
 - OWASP Top 10
 - OWASP Cheat Sheets
-
 ---
-
 ## Production Systems / SRE / Reliability
 
 - Site Reliability Engineering (Google)
 - SRE Workbook
 - Release It! - Michael Nygard
 - Site Reliability Workbook
-
 ---
-
 ## Performance / Hardware Awareness
 
 - Computer Architecture: A Quantitative Approach
 - What Every Programmer Should Know About Memory - Ulrich Drepper
 - Refactoring - Martin Fowler
-
 ---
-
 ## Software Design / Architecture
 
 - The Pragmatic Programmer
 - Design Patterns (GoF)
 - Domain-Driven Design - Eric Evans
-
 ---
-
 ## Advanced / Optional (Deep Theory)
 
 - Introduction to Algorithms (CLRS)
