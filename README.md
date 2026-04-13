@@ -330,9 +330,7 @@ Curated list of **official docs, specs, RFCs, standards, and source repositories
 
 ---
 
-#####################################################################
 # Books (Systems / Infrastructure / Security / Engineering Mindset) #
-#####################################################################
 
 ## Systems Thinking (Foundational Layer)
 
